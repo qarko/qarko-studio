@@ -1,0 +1,426 @@
+{
+  "matrix": [
+    {
+      "case": "chromium/file/agency-landing/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/agency-landing/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "chromium/file/saas-showcase/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/agency-landing/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "chromium/http/saas-showcase/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/agency-landing/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "webkit/file/saas-showcase/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/agency-landing/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/320",
+      "width": 320,
+      "scrollWidth": 320,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/375",
+      "width": 375,
+      "scrollWidth": 375,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/390",
+      "width": 390,
+      "scrollWidth": 390,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/430",
+      "width": 430,
+      "scrollWidth": 430,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/768",
+      "width": 768,
+      "scrollWidth": 768,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/1024",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/1440",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clipped": []
+    },
+    {
+      "case": "webkit/http/saas-showcase/1920",
+      "width": 1920,
+      "scrollWidth": 1920,
+      "clipped": []
+    }
+  ],
+  "interactions": [
+    "chromium/file/agency-landing/375",
+    "chromium/file/saas-showcase/375",
+    "chromium/http/agency-landing/375",
+    "chromium/http/saas-showcase/375",
+    "webkit/file/agency-landing/375",
+    "webkit/file/saas-showcase/375",
+    "webkit/http/agency-landing/375",
+    "webkit/http/saas-showcase/375"
+  ],
+  "stress": [
+    "chromium/agency-landing/320/200%-text/reduced-motion",
+    "chromium/saas-showcase/320/200%-text/reduced-motion",
+    "webkit/agency-landing/320/200%-text/reduced-motion",
+    "webkit/saas-showcase/320/200%-text/reduced-motion"
+  ],
+  "no_js": [
+    "chromium/agency-landing",
+    "chromium/saas-showcase",
+    "webkit/agency-landing",
+    "webkit/saas-showcase"
+  ],
+  "browsers": {
+    "chromium": "151.0.7922.34",
+    "webkit": "26.5"
+  },
+  "source_files_sha256": {
+    "agency-landing/index.html": "579781869a3624fc891d0205b734411c670a16326864d8a82609b0e4865afce3",
+    "agency-landing/style.css": "9390f589c09ad0d44098c0f6466ad755735f0355899e1e0817916bb578d5281f",
+    "saas-showcase/index.html": "02e3e6e6c1971f7367aa61488f56e667e10958b1d1266b35d6be66cabfc97fbe",
+    "saas-showcase/page.js": "8cc7d767be1e84fc261f4997c33db23fc7ec6965ede5d61ae85941a54d7e6d3b",
+    "saas-showcase/style.css": "64aaae191124c9fc3bed88d67c2d4c8806cda9b244318dc5098b004fd19e12e7",
+    "shared/app.css": "c8c1fae0a8b38586c8d3e85778c8ad180c8e920717ff203bdafba21c14b5599a",
+    "shared/compiled.css": "00c1fc829a84f1e37562b76f6de37118e833d0c267fcc25d953263d9621274a9",
+    "shared/components.css": "5ec0a5c97f7ae15f62c8893861460783efc204829439135e32de436898002444",
+    "shared/interactions.js": "bc2d02960ad11a464692e77cd0a17a589d08a7c49dfcd5ff22c71c57bc420dc6",
+    "shared/tokens.css": "ed8d1484944e440ea4f9c1ad006a5f78d873a8dd900d1b8d3352d49810845757"
+  }
+}

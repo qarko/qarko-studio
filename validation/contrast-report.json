@@ -1,0 +1,92 @@
+[
+  {
+    "name": "light text",
+    "foreground": "#202a25",
+    "background": "#f5f4ef",
+    "ratio": 13.44
+  },
+  {
+    "name": "light muted",
+    "foreground": "#59635c",
+    "background": "#f5f4ef",
+    "ratio": 5.67
+  },
+  {
+    "name": "light button",
+    "foreground": "#fffefa",
+    "background": "#24593f",
+    "ratio": 8.08
+  },
+  {
+    "name": "light control",
+    "foreground": "#707b71",
+    "background": "#fffefa",
+    "ratio": 4.37
+  },
+  {
+    "name": "light focus",
+    "foreground": "#24593f",
+    "background": "#f5f4ef",
+    "ratio": 7.4
+  },
+  {
+    "name": "dark text",
+    "foreground": "#f1f1e9",
+    "background": "#0b0d0c",
+    "ratio": 17.17
+  },
+  {
+    "name": "dark muted",
+    "foreground": "#a9b0a8",
+    "background": "#151815",
+    "ratio": 8.06
+  },
+  {
+    "name": "dark button",
+    "foreground": "#18200e",
+    "background": "#c5ed79",
+    "ratio": 12.59
+  },
+  {
+    "name": "dark control",
+    "foreground": "#939e91",
+    "background": "#151815",
+    "ratio": 6.43
+  },
+  {
+    "name": "dark focus",
+    "foreground": "#c5ed79",
+    "background": "#0b0d0c",
+    "ratio": 14.64
+  },
+  {
+    "name": "product muted",
+    "foreground": "#afbeb0",
+    "background": "#223329",
+    "ratio": 6.87
+  },
+  {
+    "name": "product control",
+    "foreground": "#8fa38f",
+    "background": "#1e2e24",
+    "ratio": 5.3
+  },
+  {
+    "name": "product review border",
+    "foreground": "#7f957f",
+    "background": "#223329",
+    "ratio": 4.14
+  },
+  {
+    "name": "mockup caption",
+    "foreground": "#59635c",
+    "background": "#f7f7ef",
+    "ratio": 5.8
+  },
+  {
+    "name": "feature muted",
+    "foreground": "#59635c",
+    "background": "#e7ebe1",
+    "ratio": 5.16
+  }
+]

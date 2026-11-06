@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QARKO STUDIO — Web Design & Development Portfolio</title>
+  <meta name="description" content="QARKO STUDIO의 고품질 반응형 웹사이트 및 랜딩페이지 포트폴리오 쇼케이스">
+  <link rel="stylesheet" href="./shared/tokens.css">
+  <style>
+    :root {
+      --bg: #090a0f;
+      --card-bg: #12141c;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover: rgba(255, 255, 255, 0.14);
+      --text-main: #f3f4f6;
+      --text-sub: #9ca3af;
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --primary: #38bdf8;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      padding: 2.5rem 1.5rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--primary);
+    }
+    .brand-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 10px #22c55e;
+    }
+    .hero {
+      max-width: 1100px;
+      margin: 2rem auto 3rem;
+      padding: 0 1.5rem;
+      width: 100%;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: var(--text-sub);
+      max-width: 680px;
+      word-break: keep-all;
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      width: 100%;
+      flex: 1;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.75rem;
+      margin-bottom: 3.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .card:hover {
+      border-color: var(--card-hover);
+      transform: translateY(-3px);
+      box-shadow: 0 16px 36px -12px rgba(0, 0, 0, 0.6);
+    }
+    .card-num {
+      font-family: JetBrains, monospace;
+      font-size: 0.85rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .card h2 {
+      font-size: 1.45rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: var(--text-sub);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      word-break: keep-all;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-bottom: 2rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      font-family: JetBrains, monospace;
+      padding: 0.3rem 0.65rem;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      color: #d1d5db;
+    }
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.85rem 1.4rem;
+      border-radius: 10px;
+      background: #ffffff;
+      color: #090a0f;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.2s ease, transform 0.15s ease;
+      align-self: flex-start;
+      width: 100%;
+    }
+    .cta-btn:hover {
+      background: #e2e8f0;
+      transform: translateY(-1px);
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      border-top: 1px solid var(--card-border);
+      padding-top: 2.5rem;
+    }
+    .metric-item {
+      padding: 1rem 0;
+    }
+    .metric-val {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      font-family: JetBrains, monospace;
+    }
+    .metric-label {
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      margin-top: 0.25rem;
+    }
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="brand-dot"></span>
+      QARKO STUDIO
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>에이전시급 미감과 100% 반응형 고전환 웹 개발</h1>
+    <p>Recent, Minimal Gallery, Siteinspire 기준의 글로벌 탑티어 인터랙션과 디자인 시스템을 적용하여, 브랜드의 품격을 한 단계 높이는 웹사이트를 제작합니다.</p>
+  </section>
+
+  <main>
+    <div class="grid">
+      <!-- 1호: 에이전시 랜딩 -->
+      <article class="card">
+        <div>
+          <div class="card-num">DEMO 01 / AGENCY</div>
+          <h2>QARKO STUDIO 에이전시 랜딩</h2>
+          <p>다크 에디토리얼 무드의 비대칭 4열 Bento Grid 레이아웃, 키보드 접근성 모달 시트 및 100% 모바일 375px 최적화 에이전시 공식 웹사이트 데모입니다.</p>
+          <div class="tags">
+            <span class="tag">Editorial Dark</span>
+            <span class="tag">Bento Grid</span>
+            <span class="tag">Mobile Dock</span>
+            <span class="tag">Accessible Dialog</span>
+          </div>
+        </div>
+        <a href="./agency-landing/index.html" class="cta-btn">라이브 데모 실행하기 &rarr;</a>
+      </article>
+
+      <!-- 2호: 모던 SaaS 쇼케이스 -->
+      <article class="card">
+        <div>
+          <div class="card-num">DEMO 02 / PRODUCT SAAS</div>
+          <h2>CALM AI 모던 SaaS 쇼케이스</h2>
+          <p>웜 미니멀 디자인 톤의 인터랙티브 탭 패널, 실시간 요약 체험 시뮬레이터 및 반응형 비교 요금제 표를 갖춘 글로벌 B2B SaaS 데모입니다.</p>
+          <div class="tags">
+            <span class="tag">Warm Minimal</span>
+            <span class="tag">Interactive Tab</span>
+            <span class="tag">Pricing Matrix</span>
+            <span class="tag">Keyboard Nav</span>
+          </div>
+        </div>
+        <a href="./saas-showcase/index.html" class="cta-btn">라이브 데모 실행하기 &rarr;</a>
+      </article>
+    </div>
+
+    <div class="metrics">
+      <div class="metric-item">
+        <div class="metric-val">100%</div>
+        <div class="metric-label">반응형 (320px ~ 1920px)</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-val">0 Violations</div>
+        <div class="metric-label">WCAG 웹 접근성 검증 통과</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-val">Zero AI Slop</div>
+        <div class="metric-label">클린 코드 & 보안 정제 준수</div>
+      </div>
+      <div class="metric-item">
+        <div class="metric-val">Offline-First</div>
+        <div class="metric-label">외부 CDN 무의존 자립 실행</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 QARKO STUDIO. All rights reserved. Built with precision and care.
+  </footer>
+</body>
+</html>

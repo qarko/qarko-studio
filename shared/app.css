@@ -1,0 +1,12 @@
+@import "tailwindcss" source("../");
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-hairline: var(--border);
+  --color-accent: var(--accent);
+  --color-on-accent: var(--on-accent);
+  --font-sans: var(--font-body);
+  --radius-card: var(--radius-xl);
+}

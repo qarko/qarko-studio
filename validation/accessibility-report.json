@@ -1,0 +1,50 @@
+[
+  {
+    "site": "agency-landing",
+    "width": 375,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 7
+      }
+    ],
+    "passes": 25
+  },
+  {
+    "site": "agency-landing",
+    "width": 1440,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 6
+      }
+    ],
+    "passes": 25
+  },
+  {
+    "site": "saas-showcase",
+    "width": 375,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 5
+      }
+    ],
+    "passes": 33
+  },
+  {
+    "site": "saas-showcase",
+    "width": 1440,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 5
+      }
+    ],
+    "passes": 33
+  }
+]
